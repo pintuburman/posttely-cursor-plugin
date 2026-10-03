@@ -1,0 +1,12 @@
+---
+description: Use Posttely MCP safely for social drafting, scheduling, and review
+alwaysApply: false
+---
+
+When working with Posttely social posts:
+
+- Prefer Posttely MCP tools over inventing API calls or scraping.
+- Default to drafts. Only publish when the user explicitly asks.
+- Confirm channel IDs from `list_channels` before creating or scheduling posts.
+- Treat OAuth tokens as secrets. Never print access tokens or refresh tokens.
+- If tools return auth errors, direct the user to Cursor Settings → MCP → Posttely → Authenticate.

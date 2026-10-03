@@ -1,0 +1,22 @@
+{
+  "name": "posttely",
+  "version": "1.0.0",
+  "description": "Plan, draft, schedule, and review social posts in Cursor through Posttely's hosted MCP and OAuth.",
+  "author": {
+    "name": "Posttely",
+    "email": "support@posttely.com"
+  },
+  "homepage": "https://www.posttely.com/mcp-setup/",
+  "repository": "https://github.com/pintuburman/posttely-cursor-plugin",
+  "license": "MIT",
+  "keywords": [
+    "posttely",
+    "social-media",
+    "scheduling",
+    "mcp",
+    "oauth",
+    "marketing"
+  ],
+  "logo": "assets/logo.svg",
+  "mcpServers": "mcp.json"
+}
